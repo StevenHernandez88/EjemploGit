@@ -7,8 +7,9 @@ public class Carro{
         this.placa = placa;
     }
 
-    public String toString(color, placa){
-        System.out.print("color: "+ color + "placa: "+placa);
+    @Override
+    public String toString(){
+        return "color: "+ this.color + " placa: " + this.placa;
     }
 
 }
