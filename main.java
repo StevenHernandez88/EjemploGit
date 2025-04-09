@@ -2,8 +2,9 @@ public class Main{
 
     public static void main(String arg[]){
 
-        Carro carro = new Carro("Blanco","ECH35");
+        Vehiculo carro = new Carro("Blanco","ECH35");
 
+        carro.pintarCarro();
 
         System.out.print(carro);
     }
